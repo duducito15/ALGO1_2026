@@ -1,4 +1,4 @@
-public class SenteciaIf03 {
+public class SentenciaIf03 {
     public static void main(String[] args) {
         int nota1, nota2, nota3;
         double promedio;
