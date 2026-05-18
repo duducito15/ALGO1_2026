@@ -1,6 +1,6 @@
 package Ejercicios4;
 
-public class Ejericicio4 {
+public class Ejercicio4 {
     public static void main(String[] args) {
         System.out.println("Programa que indica tu signo");
 
