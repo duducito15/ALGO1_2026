@@ -1,6 +1,6 @@
 package Ejercicios5;
 
-public class Ejericicio1 {
+public class Ejercicio1 {
     /*
      * Ejercicio 1
      * Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle for.
