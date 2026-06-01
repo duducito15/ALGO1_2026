@@ -15,5 +15,8 @@ public class Array1 {
         System.out.println("Los valores del array numeros son:");
         System.out.print(numeros[0]+", "+numeros[1]+", "+numeros[2]+", "+numeros[3]+", "+numeros[4]);
 
+        int suma = numeros[1] + numeros[3];
+        System.out.println("\n"+suma);
+
     }
 }
