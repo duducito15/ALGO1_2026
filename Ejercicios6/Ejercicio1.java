@@ -42,7 +42,6 @@ public class Ejercicio1 {
                 carta = String.valueOf(numeroCarta);
                 break;
         }
-
         System.out.println(carta + " de "+palo);
     }
 }
