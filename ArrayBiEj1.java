@@ -17,7 +17,7 @@ public class ArrayBiEj1 {
         int fila, columna;
         System.out.print("      ");
         for (columna = 0; columna < 6; columna++) {
-            System.out.print("  Columna " + columna);
+            System.out.print(" Columna " + columna);
         }
 
         for (fila = 0; fila < 3; fila++) {
