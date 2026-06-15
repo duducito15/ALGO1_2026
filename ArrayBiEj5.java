@@ -13,7 +13,20 @@ public class ArrayBiEj5 {
         int cmaximo = 0;
         int cminimo = 0;
 
+        System.out.print("\n     ");
+        for (c = 0; c < 10; c++) {
+            System.out.print("   "+c+"  ");
+        }
+        System.out.println();
+        
+        System.out.print("    ┌");
+        for (c = 0; c < 10; c++) {
+            System.out.print("──────");
+        }
+        System.out.println("┐");
+
         for (f = 0; f < 6; f++) {
+            System.out.print("  "+f+" |");
             for (c = 0; c < 10; c++) {
                 num[f][c] = (int) (Math.random() * 900) + 100;
                 System.out.printf("%5d ", num[f][c]);
@@ -33,8 +46,12 @@ public class ArrayBiEj5 {
             }
             System.out.println("|");
         }
+        System.out.print("    └");
+        for (c = 0; c < 10; c++) {
+            System.out.print("──────");
+        }
 
-        System.out.println("El minimo: " + minimo + " y esta en [ " + fminimo + ";" + cminimo + " ]");
+        System.out.println("\nEl minimo: " + minimo + " y esta en [ " + fminimo + ";" + cminimo + " ]");
         System.out.println("El maximo: " + maximo + " y esta en [ " + fmaximo + ";" + cmaximo + " ]");
 
     }
