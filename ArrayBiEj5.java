@@ -28,9 +28,9 @@ public class ArrayBiEj5 {
         for (f = 0; f < 6; f++) {
             System.out.print("  "+f+" |");
             for (c = 0; c < 10; c++) {
-                num[f][c] = (int) (Math.random() * 900) + 100;
+                num[f][c] = (int) (Math.random() * 1000) + 1;
                 System.out.printf("%5d ", num[f][c]);
-                // Thread.sleep(500);
+                Thread.sleep(500);
 
                 if (num[f][c] < minimo) {
                     minimo = num[f][c];
