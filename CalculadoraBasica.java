@@ -28,3 +28,5 @@ public class CalculadoraBasica {
         return x / y;
     }
 }
+
+//programa que convierte un numero decimal a binario, pero con funciones
