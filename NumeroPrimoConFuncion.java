@@ -1,6 +1,6 @@
 public class NumeroPrimoConFuncion {
     public static void main(String[] args) {
-         System.out.println("Introduce un número entero positivo: ");
+        System.out.println("Introduce un número entero positivo: ");
         int num = Integer.parseInt(System.console().readLine());
 
         if (esPrimo(num)) {
