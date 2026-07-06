@@ -38,10 +38,14 @@ public class CalculadoraGeometrica {
                 System.out.println("El área del triángulo es: " + Matematicas.division(Matematicas.multiplicacion(baseT, alturaT), 2));
                 break;
             case 4:
-                
+                int radio;
+                System.out.println("Ingrese el valor del radio de la circunferencia: ");
+                radio = Integer.parseInt(System.console().readLine());
+                System.out.println("El área de la circunferencia es: " + Matematicas.multiplicacion(radio, radio)*3.14);
                 break;
 
             default:
+                System.out.println("No existe esa operación en el menú");
                 break;
         }
 
