@@ -19,7 +19,11 @@ public class Matematicas {
 
     //Funcion que realiza la operacion de división de 2 variables
     public static double division(double x, double y) {
-        return x / y;
+        if (y == 0) {
+            return 0;
+        } else{
+            return x / y;
+        }
     }
 
 
