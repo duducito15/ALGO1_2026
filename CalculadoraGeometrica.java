@@ -1,4 +1,5 @@
 import Funciones.Matematicas;
+
 public class CalculadoraGeometrica {
     public static void main(String[] args) {
         System.out.println("CALCULADORA GEOMÉTRICA");
@@ -18,13 +19,23 @@ public class CalculadoraGeometrica {
                 int lado;
                 System.out.println("Ingrese el valor del lado del cuadrado: ");
                 lado = Integer.parseInt(System.console().readLine());
-                System.out.println("El área del cuadrado es: "+ Matematicas.multiplicacion(lado, lado));
+                System.out.println("El área del cuadrado es: " + Matematicas.multiplicacion(lado, lado));
                 break;
             case 2:
-
+                int base, altura;
+                System.out.println("Ingrese el valor de la base del rectángulo: ");
+                base = Integer.parseInt(System.console().readLine());
+                System.out.println("Ingrese el valor de la altura del rectángulo: ");
+                altura = Integer.parseInt(System.console().readLine());
+                System.out.println("El área del rectángulo es: " + Matematicas.multiplicacion(base, altura));
                 break;
             case 3:
-
+                int baseT, alturaT;
+                System.out.println("Ingrese el valor de la base del triángulo: ");
+                baseT = Integer.parseInt(System.console().readLine());
+                System.out.println("Ingrese el valor de la altura del triángulo: ");
+                alturaT = Integer.parseInt(System.console().readLine());
+                System.out.println("El área del triángulo es: " + Matematicas.division(Matematicas.multiplicacion(baseT, alturaT), 2));
                 break;
             case 4:
 
