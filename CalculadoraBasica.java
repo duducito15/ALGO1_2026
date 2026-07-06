@@ -12,21 +12,5 @@ public class CalculadoraBasica {
         System.out.println("la Division es: " + division(n1, n2));
     }
 
-    public static double suma(double a, double b) {
-        return a + b;
-    }
-
-    public static double resta(double x, double y) {
-        return x - y;
-    }
-
-    public static double multiplicacion(double x, double y) {
-        return x * y;
-    }
-
-    public static double division(double x, double y) {
-        return x / y;
-    }
+    
 }
-
-//programa que convierte un numero decimal a binario, pero con funciones
