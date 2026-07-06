@@ -38,7 +38,7 @@ public class CalculadoraGeometrica {
                 System.out.println("El área del triángulo es: " + Matematicas.division(Matematicas.multiplicacion(baseT, alturaT), 2));
                 break;
             case 4:
-
+                
                 break;
 
             default:
